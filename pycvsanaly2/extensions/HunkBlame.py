@@ -169,7 +169,7 @@ class NotValidHunkWarning(Exception):
 
 class HunkBlame(Blame):
 
-    deps = ['Hunks']
+    #deps = ['Hunks']
 
     MAX_BLAMES = 10
 

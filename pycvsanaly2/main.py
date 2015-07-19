@@ -250,10 +250,10 @@ def main(argv):
     profile = None
     configfile = None
     no_parse = None
-    user = None
-    passwd = None
+    user = 'root'
+    passwd = 'xybsnny'
     hostname = None
-    database = None
+    database = 'eclipse'
     driver = None
     logfile = None
     save_logfile = None

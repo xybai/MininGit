@@ -69,7 +69,7 @@ class CommitData(object):
 # This class holds a single repository retrieve task,
 # and keeps the source code until the object is garbage-collected
 class Hunks(Extension):
-    deps = ['Patches']
+    #deps = ['Patches']
     INTERVAL_SIZE = 100
 
     def __prepare_table(self, connection, drop_table=False):
